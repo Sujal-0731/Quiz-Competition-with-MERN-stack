@@ -254,21 +254,81 @@ exports.judgeRegisterService = async (username, password) => {
 };
 
 exports.teamRegisterService = async (schoolName, password, participants) => {
-  const existing = await Team.findOne({ schoolName });
-  if (existing) throw new Error("Team already exists");
-
-  const hashedPassword = await bcrypt.hash(password, 10);
-  const team = await Team.create({
-    schoolName,
-    password: hashedPassword,
-    participants
-  });
-
-  const token = generateToken({ id: team._id, role: "team" });
-
-  return { token, user: { id: team._id, schoolName, role: "team" } };
+  try {
+    console.log("🔧 Service: Processing team registration");
+    console.log("Service inputs:", { schoolName, password, participants });
+    
+    // Check if team already exists
+    const existingTeam = await Team.findOne({ schoolName: schoolName.trim() });
+    if (existingTeam) {
+      throw new Error("Team already exists");
+    }
+    
+    // Validate participants (non-empty strings)
+    const validParticipants = participants.map(p => {
+      const trimmed = p.trim();
+      if (!trimmed) {
+        throw new Error("All participant names must be non-empty");
+      }
+      return trimmed;
+    });
+    
+    // Hash password
+    const hashedPassword = await bcrypt.hash(password, 10);
+    
+    // Create team with ALL required fields EXPLICITLY set
+    const teamData = {
+      schoolName: schoolName.trim(),
+      password: hashedPassword,
+      participants: validParticipants,
+      
+      // Score fields (from your schema)
+      scores: {
+        round1: { judgeScore: 0, totalScore: 0 },
+        round2: { judgeScore: 0, totalScore: 0 },
+        round3: { judgeScore: 0, voterScore: 0, totalScore: 0 }
+      },
+      totalJudgeScore: 0,
+      totalVoterScore: 0,
+      finalScore: 0,
+      
+      // Group/status fields
+      groupNumber: null,
+      status: 'available'  // CRITICAL: Explicitly set status
+    };
+    
+    console.log("📝 Creating team with data:", JSON.stringify(teamData, null, 2));
+    
+    const team = await Team.create(teamData);
+    
+    console.log("✅ Service: Team created successfully.");
+    console.log("Team ID:", team._id);
+    console.log("Team status:", team.status);
+    console.log("All fields in created team:", Object.keys(team.toObject()));
+    
+    // Generate token
+    const token = generateToken({ 
+      id: team._id, 
+      role: "team" 
+    });
+    
+    return {
+      token,
+      user: {
+        id: team._id,
+        schoolName: team.schoolName,
+        role: "team"
+      }
+    };
+    
+  } catch (error) {
+    console.error("❌ Service error:", error.message);
+    console.error("Error stack:", error.stack);
+    
+    // Re-throw for controller to handle
+    throw error;
+  }
 };
-
 // ---------- CHECK AUTH SERVICE ----------
 
 exports.checkAuthService = async (req, res) => {

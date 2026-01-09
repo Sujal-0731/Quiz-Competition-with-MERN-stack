@@ -1,0 +1,1702 @@
+{
+  "groups": [
+    {
+      "group": 1,
+      "questions": {
+        "round1": [
+          {
+            "qn": 1,
+            "question": "What is the capital of France?",
+            "answer": "Paris",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 2,
+            "question": "Who wrote 'Romeo and Juliet'?",
+            "answer": "William Shakespeare",
+            "points": 10,
+            "category": "Literature"
+          },
+          {
+            "qn": 3,
+            "question": "What is 5 × 7?",
+            "answer": "35",
+            "points": 10,
+            "category": "Mathematics"
+          },
+          {
+            "qn": 4,
+            "question": "What is the chemical symbol for Gold?",
+            "answer": "Au",
+            "points": 10,
+            "category": "Science"
+          },
+          {
+            "qn": 5,
+            "question": "Which planet is known as the Red Planet?",
+            "answer": "Mars",
+            "points": 10,
+            "category": "Astronomy"
+          },
+          {
+            "qn": 6,
+            "question": "What is the largest ocean on Earth?",
+            "answer": "Pacific Ocean",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 7,
+            "question": "Who painted the Mona Lisa?",
+            "answer": "Leonardo da Vinci",
+            "points": 10,
+            "category": "Art"
+          },
+          {
+            "qn": 8,
+            "question": "What is the square root of 144?",
+            "answer": "12",
+            "points": 10,
+            "category": "Mathematics"
+          },
+          {
+            "qn": 9,
+            "question": "What is the hardest natural substance on Earth?",
+            "answer": "Diamond",
+            "points": 10,
+            "category": "Science"
+          },
+          {
+            "qn": 10,
+            "question": "Which country gifted the Statue of Liberty to the USA?",
+            "answer": "France",
+            "points": 10,
+            "category": "History"
+          },
+          {
+            "qn": 11,
+            "question": "What is the main ingredient in guacamole?",
+            "answer": "Avocado",
+            "points": 10,
+            "category": "Food"
+          },
+          {
+            "qn": 12,
+            "question": "How many bones are in the human body?",
+            "answer": "206",
+            "points": 10,
+            "category": "Biology"
+          },
+          {
+            "qn": 13,
+            "question": "What is the currency of Japan?",
+            "answer": "Yen",
+            "points": 10,
+            "category": "Economics"
+          },
+          {
+            "qn": 14,
+            "question": "Who discovered penicillin?",
+            "answer": "Alexander Fleming",
+            "points": 10,
+            "category": "Medicine"
+          },
+          {
+            "qn": 15,
+            "question": "What is the smallest country in the world?",
+            "answer": "Vatican City",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 16,
+            "question": "Which language has the most words?",
+            "answer": "English",
+            "points": 10,
+            "category": "Language"
+          },
+          {
+            "qn": 17,
+            "question": "What is the fastest land animal?",
+            "answer": "Cheetah",
+            "points": 10,
+            "category": "Zoology"
+          },
+          {
+            "qn": 18,
+            "question": "How many sides does a hexagon have?",
+            "answer": "6",
+            "points": 10,
+            "category": "Mathematics"
+          },
+          {
+            "qn": 19,
+            "question": "Who is known as the father of computers?",
+            "answer": "Charles Babbage",
+            "points": 10,
+            "category": "Technology"
+          },
+          {
+            "qn": 20,
+            "question": "What is the largest mammal in the world?",
+            "answer": "Blue Whale",
+            "points": 10,
+            "category": "Zoology"
+          },
+          {
+            "qn": 21,
+            "question": "Which planet has the most moons?",
+            "answer": "Saturn",
+            "points": 10,
+            "category": "Astronomy"
+          },
+          {
+            "qn": 22,
+            "question": "What is the longest river in the world?",
+            "answer": "Nile River",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 23,
+            "question": "Who wrote 'The Theory of Relativity'?",
+            "answer": "Albert Einstein",
+            "points": 10,
+            "category": "Physics"
+          },
+          {
+            "qn": 24,
+            "question": "What is the boiling point of water?",
+            "answer": "100°C",
+            "points": 10,
+            "category": "Science"
+          },
+          {
+            "qn": 25,
+            "question": "Which country has the most population?",
+            "answer": "India",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 26,
+            "question": "What is the capital of Australia?",
+            "answer": "Canberra",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 27,
+            "question": "How many players are in a soccer team?",
+            "answer": "11",
+            "points": 10,
+            "category": "Sports"
+          },
+          {
+            "qn": 28,
+            "question": "What is the largest desert in the world?",
+            "answer": "Antarctic Desert",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 29,
+            "question": "Which gas do plants absorb during photosynthesis?",
+            "answer": "Carbon dioxide",
+            "points": 10,
+            "category": "Biology"
+          },
+          {
+            "qn": 30,
+            "question": "Who invented the telephone?",
+            "answer": "Alexander Graham Bell",
+            "points": 10,
+            "category": "Inventions"
+          },
+          {
+            "qn": 31,
+            "question": "What is the currency of the United Kingdom?",
+            "answer": "Pound Sterling",
+            "points": 10,
+            "category": "Economics"
+          },
+          {
+            "qn": 32,
+            "question": "How many continents are there?",
+            "answer": "7",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 33,
+            "question": "Which planet is closest to the sun?",
+            "answer": "Mercury",
+            "points": 10,
+            "category": "Astronomy"
+          },
+          {
+            "qn": 34,
+            "question": "What is the chemical formula for water?",
+            "answer": "H2O",
+            "points": 10,
+            "category": "Chemistry"
+          },
+          {
+            "qn": 35,
+            "question": "Who was the first man to walk on the moon?",
+            "answer": "Neil Armstrong",
+            "points": 10,
+            "category": "Space"
+          },
+          {
+            "qn": 36,
+            "question": "What is the tallest mountain in the world?",
+            "answer": "Mount Everest",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 37,
+            "question": "Which organ pumps blood in the human body?",
+            "answer": "Heart",
+            "points": 10,
+            "category": "Biology"
+          },
+          {
+            "qn": 38,
+            "question": "What is the capital of Japan?",
+            "answer": "Tokyo",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 39,
+            "question": "How many colors are in a rainbow?",
+            "answer": "7",
+            "points": 10,
+            "category": "Physics"
+          },
+          {
+            "qn": 40,
+            "question": "Who wrote 'Harry Potter' series?",
+            "answer": "J.K. Rowling",
+            "points": 10,
+            "category": "Literature"
+          },
+          {
+            "qn": 41,
+            "question": "What is the speed of light?",
+            "answer": "299,792,458 m/s",
+            "points": 10,
+            "category": "Physics"
+          },
+          {
+            "qn": 42,
+            "question": "Which country invented pizza?",
+            "answer": "Italy",
+            "points": 10,
+            "category": "Food"
+          },
+          {
+            "qn": 43,
+            "question": "How many years are in a century?",
+            "answer": "100",
+            "points": 10,
+            "category": "Mathematics"
+          },
+          {
+            "qn": 44,
+            "question": "What is the largest bone in the human body?",
+            "answer": "Femur",
+            "points": 10,
+            "category": "Biology"
+          },
+          {
+            "qn": 45,
+            "question": "Who painted 'Starry Night'?",
+            "answer": "Vincent van Gogh",
+            "points": 10,
+            "category": "Art"
+          },
+          {
+            "qn": 46,
+            "question": "What is the chemical symbol for Silver?",
+            "answer": "Ag",
+            "points": 10,
+            "category": "Chemistry"
+          },
+          {
+            "qn": 47,
+            "question": "How many stripes are on the US flag?",
+            "answer": "13",
+            "points": 10,
+            "category": "General Knowledge"
+          },
+          {
+            "qn": 48,
+            "question": "What is the largest continent?",
+            "answer": "Asia",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 49,
+            "question": "Who discovered gravity?",
+            "answer": "Isaac Newton",
+            "points": 10,
+            "category": "Physics"
+          },
+          {
+            "qn": 50,
+            "question": "What is the freezing point of water?",
+            "answer": "0°C",
+            "points": 10,
+            "category": "Science"
+          },
+          {
+            "qn": 51,
+            "question": "Which country is known as the Land of the Rising Sun?",
+            "answer": "Japan",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 52,
+            "question": "How many legs does a spider have?",
+            "answer": "8",
+            "points": 10,
+            "category": "Zoology"
+          },
+          {
+            "qn": 53,
+            "question": "What is the capital of Canada?",
+            "answer": "Ottawa",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 54,
+            "question": "Who wrote 'The Republic'?",
+            "answer": "Plato",
+            "points": 10,
+            "category": "Philosophy"
+          },
+          {
+            "qn": 55,
+            "question": "What is the chemical symbol for Iron?",
+            "answer": "Fe",
+            "points": 10,
+            "category": "Chemistry"
+          },
+          {
+            "qn": 56,
+            "question": "How many teeth does an adult human have?",
+            "answer": "32",
+            "points": 10,
+            "category": "Biology"
+          },
+          {
+            "qn": 57,
+            "question": "Which planet is known for its rings?",
+            "answer": "Saturn",
+            "points": 10,
+            "category": "Astronomy"
+          },
+          {
+            "qn": 58,
+            "question": "What is the capital of Germany?",
+            "answer": "Berlin",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 59,
+            "question": "Who invented the light bulb?",
+            "answer": "Thomas Edison",
+            "points": 10,
+            "category": "Inventions"
+          },
+          {
+            "qn": 60,
+            "question": "What is the chemical symbol for Oxygen?",
+            "answer": "O",
+            "points": 10,
+            "category": "Chemistry"
+          }
+        ],
+        "round2": [
+          {
+            "qn": 1,
+            "question": "Explain the concept of artificial intelligence in simple terms.",
+            "answer": "AI is the simulation of human intelligence in machines that are programmed to think and learn like humans.",
+            "points": 15,
+            "category": "Technology"
+          },
+          {
+            "qn": 2,
+            "question": "Discuss the impact of social media on modern society.",
+            "answer": "Social media has revolutionized communication but also raised concerns about privacy, mental health, and misinformation.",
+            "points": 15,
+            "category": "Society"
+          },
+          {
+            "qn": 3,
+            "question": "What are the benefits of renewable energy sources?",
+            "answer": "Renewable energy reduces carbon emissions, is sustainable, creates jobs, and reduces dependence on fossil fuels.",
+            "points": 15,
+            "category": "Environment"
+          },
+          {
+            "qn": 4,
+            "question": "Explain the importance of space exploration for humanity.",
+            "answer": "Space exploration advances technology, provides scientific knowledge, inspires innovation, and could ensure human survival.",
+            "points": 15,
+            "category": "Science"
+          },
+          {
+            "qn": 5,
+            "question": "Discuss the role of education in economic development.",
+            "answer": "Education develops human capital, drives innovation, reduces poverty, and increases productivity in economies.",
+            "points": 15,
+            "category": "Economics"
+          },
+          {
+            "qn": 6,
+            "question": "What is blockchain technology and how does it work?",
+            "answer": "Blockchain is a decentralized digital ledger that records transactions across many computers securely and transparently.",
+            "points": 15,
+            "category": "Technology"
+          },
+          {
+            "qn": 7,
+            "question": "Discuss the ethical implications of genetic engineering.",
+            "answer": "Genetic engineering raises questions about playing God, inequality, unintended consequences, and long-term effects on evolution.",
+            "points": 15,
+            "category": "Ethics"
+          },
+          {
+            "qn": 8,
+            "question": "Explain how global warming affects climate patterns.",
+            "answer": "Global warming increases temperatures, melts polar ice, raises sea levels, and causes extreme weather events worldwide.",
+            "points": 15,
+            "category": "Environment"
+          },
+          {
+            "qn": 9,
+            "question": "Discuss the importance of cultural diversity in globalization.",
+            "answer": "Cultural diversity enriches societies, promotes creativity, but also requires respect and understanding to prevent conflicts.",
+            "points": 15,
+            "category": "Culture"
+          },
+          {
+            "qn": 10,
+            "question": "What are the challenges of sustainable development?",
+            "answer": "Balancing economic growth with environmental protection, resource management, and social equity across nations.",
+            "points": 15,
+            "category": "Development"
+          },
+          {
+            "qn": 11,
+            "question": "Explain quantum computing and its potential applications.",
+            "answer": "Quantum computing uses quantum bits to perform complex calculations much faster than classical computers.",
+            "points": 15,
+            "category": "Technology"
+          },
+          {
+            "qn": 12,
+            "question": "Discuss the effects of automation on employment.",
+            "answer": "Automation creates new jobs but eliminates others, requiring workforce retraining and social safety nets.",
+            "points": 15,
+            "category": "Economics"
+          },
+          {
+            "qn": 13,
+            "question": "What is the significance of the Internet of Things (IoT)?",
+            "answer": "IoT connects physical devices to the internet, enabling data collection, automation, and smart systems.",
+            "points": 15,
+            "category": "Technology"
+          },
+          {
+            "qn": 14,
+            "question": "Discuss the role of women in modern politics.",
+            "answer": "Women bring diverse perspectives to governance, though still underrepresented in many political systems globally.",
+            "points": 15,
+            "category": "Politics"
+          },
+          {
+            "qn": 15,
+            "question": "Explain the concept of universal basic income.",
+            "answer": "UBI provides all citizens with regular, unconditional cash payments to ensure basic living standards.",
+            "points": 15,
+            "category": "Economics"
+          },
+          {
+            "qn": 16,
+            "question": "Discuss the impact of fast fashion on the environment.",
+            "answer": "Fast fashion causes pollution, waste, and resource depletion while promoting unsustainable consumption patterns.",
+            "points": 15,
+            "category": "Environment"
+          },
+          {
+            "qn": 17,
+            "question": "What are the benefits of meditation for mental health?",
+            "answer": "Meditation reduces stress, improves focus, enhances emotional well-being, and promotes mindfulness.",
+            "points": 15,
+            "category": "Health"
+          },
+          {
+            "qn": 18,
+            "question": "Discuss the importance of financial literacy education.",
+            "answer": "Financial literacy helps individuals make informed decisions, avoid debt, and plan for secure futures.",
+            "points": 15,
+            "category": "Education"
+          },
+          {
+            "qn": 19,
+            "question": "Explain the concept of circular economy.",
+            "answer": "Circular economy minimizes waste by reusing, repairing, and recycling materials in continuous cycles.",
+            "points": 15,
+            "category": "Economics"
+          },
+          {
+            "qn": 20,
+            "question": "Discuss the ethical considerations of AI in decision-making.",
+            "answer": "AI decisions must be transparent, fair, unbiased, and accountable to prevent discrimination and harm.",
+            "points": 15,
+            "category": "Ethics"
+          },
+          {
+            "qn": 21,
+            "question": "What are the advantages of electric vehicles?",
+            "answer": "EVs reduce emissions, lower operating costs, and decrease dependence on fossil fuels.",
+            "points": 15,
+            "category": "Technology"
+          },
+          {
+            "qn": 22,
+            "question": "Discuss the importance of preserving indigenous languages.",
+            "answer": "Indigenous languages preserve cultural heritage, traditional knowledge, and linguistic diversity.",
+            "points": 15,
+            "category": "Culture"
+          },
+          {
+            "qn": 23,
+            "question": "Explain the concept of smart cities.",
+            "answer": "Smart cities use technology to improve infrastructure, services, and quality of life for residents.",
+            "points": 15,
+            "category": "Urban Planning"
+          },
+          {
+            "qn": 24,
+            "question": "Discuss the role of youth in social change.",
+            "answer": "Youth bring energy, innovation, and digital literacy to drive social and political movements.",
+            "points": 15,
+            "category": "Society"
+          },
+          {
+            "qn": 25,
+            "question": "What are the challenges of digital privacy?",
+            "answer": "Balancing convenience with protection of personal data from corporations and cyber threats.",
+            "points": 15,
+            "category": "Technology"
+          },
+          {
+            "qn": 26,
+            "question": "Discuss the impact of tourism on local economies.",
+            "answer": "Tourism creates jobs and revenue but can cause overcrowding, environmental damage, and cultural erosion.",
+            "points": 15,
+            "category": "Economics"
+          },
+          {
+            "qn": 27,
+            "question": "Explain the importance of biodiversity conservation.",
+            "answer": "Biodiversity maintains ecosystem balance, provides resources, and supports genetic diversity for adaptation.",
+            "points": 15,
+            "category": "Environment"
+          },
+          {
+            "qn": 28,
+            "question": "Discuss the role of sports in national unity.",
+            "answer": "Sports create shared identity, promote teamwork, and transcend social and political divisions.",
+            "points": 15,
+            "category": "Society"
+          },
+          {
+            "qn": 29,
+            "question": "What are the benefits of learning multiple languages?",
+            "answer": "Enhances cognitive abilities, improves career opportunities, and fosters cross-cultural understanding.",
+            "points": 15,
+            "category": "Education"
+          },
+          {
+            "qn": 30,
+            "question": "Discuss the ethical implications of animal testing.",
+            "answer": "Balancing medical advancement with animal welfare and exploring alternative research methods.",
+            "points": 15,
+            "category": "Ethics"
+          },
+          {
+            "qn": 31,
+            "question": "Explain the concept of virtual reality and its applications.",
+            "answer": "VR creates immersive digital environments used in gaming, training, therapy, and education.",
+            "points": 15,
+            "category": "Technology"
+          },
+          {
+            "qn": 32,
+            "question": "Discuss the importance of critical thinking in education.",
+            "answer": "Critical thinking enables analysis, evaluation, and informed decision-making in complex situations.",
+            "points": 15,
+            "category": "Education"
+          },
+          {
+            "qn": 33,
+            "question": "What are the effects of social media on mental health?",
+            "answer": "Can cause anxiety, depression, and comparison while also providing support and connection.",
+            "points": 15,
+            "category": "Health"
+          },
+          {
+            "qn": 34,
+            "question": "Discuss the role of art in social commentary.",
+            "answer": "Art reflects societal issues, provokes thought, and inspires change through creative expression.",
+            "points": 15,
+            "category": "Art"
+          },
+          {
+            "qn": 35,
+            "question": "Explain the concept of sustainable agriculture.",
+            "answer": "Sustainable agriculture meets current food needs while preserving resources for future generations.",
+            "points": 15,
+            "category": "Agriculture"
+          },
+          {
+            "qn": 36,
+            "question": "Discuss the impact of video games on cognitive development.",
+            "answer": "Video games can improve problem-solving skills and coordination but may cause addiction if excessive.",
+            "points": 15,
+            "category": "Psychology"
+          },
+          {
+            "qn": 37,
+            "question": "What are the challenges of urbanization?",
+            "answer": "Housing shortages, traffic congestion, pollution, and strain on infrastructure and services.",
+            "points": 15,
+            "category": "Urban Planning"
+          },
+          {
+            "qn": 38,
+            "question": "Discuss the importance of cybersecurity in modern society.",
+            "answer": "Cybersecurity protects data, infrastructure, and privacy from increasing digital threats and attacks.",
+            "points": 15,
+            "category": "Technology"
+          },
+          {
+            "qn": 39,
+            "question": "Explain the concept of microfinance and its impact.",
+            "answer": "Microfinance provides small loans to entrepreneurs in developing countries, promoting economic empowerment.",
+            "points": 15,
+            "category": "Economics"
+          },
+          {
+            "qn": 40,
+            "question": "Discuss the role of journalism in democracy.",
+            "answer": "Journalism informs citizens, holds power accountable, and facilitates public discourse essential for democracy.",
+            "points": 15,
+            "category": "Politics"
+          },
+          {
+            "qn": 41,
+            "question": "What are the benefits of public transportation?",
+            "answer": "Reduces traffic, lowers emissions, saves money, and increases accessibility for all citizens.",
+            "points": 15,
+            "category": "Urban Planning"
+          },
+          {
+            "qn": 42,
+            "question": "Discuss the impact of automation on healthcare.",
+            "answer": "Automation improves diagnosis accuracy and efficiency but raises concerns about human touch and job displacement.",
+            "points": 15,
+            "category": "Health"
+          },
+          {
+            "qn": 43,
+            "question": "Explain the importance of emotional intelligence in leadership.",
+            "answer": "Emotional intelligence enables understanding, empathy, and effective management of relationships in organizations.",
+            "points": 15,
+            "category": "Psychology"
+          },
+          {
+            "qn": 44,
+            "question": "Discuss the ethical considerations of genetic data privacy.",
+            "answer": "Genetic data reveals sensitive information requiring strict privacy protection and consent protocols.",
+            "points": 15,
+            "category": "Ethics"
+          },
+          {
+            "qn": 45,
+            "question": "What are the challenges of remote work?",
+            "answer": "Isolation, work-life balance, communication barriers, and unequal access to technology.",
+            "points": 15,
+            "category": "Work"
+          },
+          {
+            "qn": 46,
+            "question": "Discuss the impact of plastic pollution on marine life.",
+            "answer": "Plastic harms and kills marine animals through ingestion, entanglement, and toxic contamination.",
+            "points": 15,
+            "category": "Environment"
+          },
+          {
+            "qn": 47,
+            "question": "Explain the concept of carbon footprint.",
+            "answer": "Carbon footprint measures total greenhouse gas emissions caused by an individual, organization, or product.",
+            "points": 15,
+            "category": "Environment"
+          },
+          {
+            "qn": 48,
+            "question": "Discuss the importance of preserving historical sites.",
+            "answer": "Historical sites preserve cultural identity, educate future generations, and attract tourism.",
+            "points": 15,
+            "category": "Culture"
+          },
+          {
+            "qn": 49,
+            "question": "What are the benefits of community service?",
+            "answer": "Builds character, develops skills, strengthens communities, and fosters civic responsibility.",
+            "points": 15,
+            "category": "Society"
+          },
+          {
+            "qn": 50,
+            "question": "Discuss the role of music in cultural expression.",
+            "answer": "Music transmits cultural values, emotions, and stories across generations and borders.",
+            "points": 15,
+            "category": "Culture"
+          },
+          {
+            "qn": 51,
+            "question": "Explain the concept of digital divide.",
+            "answer": "Digital divide refers to unequal access to technology and internet between different groups.",
+            "points": 15,
+            "category": "Technology"
+          },
+          {
+            "qn": 52,
+            "question": "Discuss the impact of advertising on consumer behavior.",
+            "answer": "Advertising shapes desires, creates demand, and influences purchasing decisions through psychological techniques.",
+            "points": 15,
+            "category": "Economics"
+          },
+          {
+            "qn": 53,
+            "question": "What are the benefits of renewable energy for developing countries?",
+            "answer": "Provides energy access, creates jobs, reduces import dependence, and supports sustainable development.",
+            "points": 15,
+            "category": "Development"
+          },
+          {
+            "qn": 54,
+            "question": "Discuss the importance of sleep for health and productivity.",
+            "answer": "Sleep restores the body, consolidates memory, and improves cognitive function and mood.",
+            "points": 15,
+            "category": "Health"
+          },
+          {
+            "qn": 55,
+            "question": "Explain the concept of gender equality in the workplace.",
+            "answer": "Equal opportunities, pay, and treatment regardless of gender, promoting diversity and inclusion.",
+            "points": 15,
+            "category": "Work"
+          },
+          {
+            "qn": 56,
+            "question": "Discuss the impact of deforestation on climate change.",
+            "answer": "Deforestation releases carbon, reduces carbon absorption, and disrupts weather patterns globally.",
+            "points": 15,
+            "category": "Environment"
+          },
+          {
+            "qn": 57,
+            "question": "What are the challenges of aging populations?",
+            "answer": "Healthcare costs, pension systems, and ensuring social inclusion and care for elderly citizens.",
+            "points": 15,
+            "category": "Society"
+          },
+          {
+            "qn": 58,
+            "question": "Discuss the role of entrepreneurship in economic growth.",
+            "answer": "Entrepreneurship drives innovation, creates jobs, and stimulates economic development through new ventures.",
+            "points": 15,
+            "category": "Economics"
+          },
+          {
+            "qn": 59,
+            "question": "Explain the importance of water conservation.",
+            "answer": "Water conservation ensures sustainable supply for future generations amid growing demand and climate change.",
+            "points": 15,
+            "category": "Environment"
+          },
+          {
+            "qn": 60,
+            "question": "Discuss the impact of social media on political movements.",
+            "answer": "Social media enables rapid mobilization and awareness but also spreads misinformation and polarization.",
+            "points": 15,
+            "category": "Politics"
+          }
+        ]
+      }
+    },
+    {
+      "group": 2,
+      "questions": {
+        "round1": [
+          {
+            "qn": 1,
+            "question": "What is the largest planet in our solar system?",
+            "answer": "Jupiter",
+            "points": 10,
+            "category": "Astronomy"
+          },
+          {
+            "qn": 2,
+            "question": "Who invented the telephone?",
+            "answer": "Alexander Graham Bell",
+            "points": 10,
+            "category": "Inventions"
+          },
+          {
+            "qn": 3,
+            "question": "What is the capital of Brazil?",
+            "answer": "Brasília",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 4,
+            "question": "How many elements are in the periodic table?",
+            "answer": "118",
+            "points": 10,
+            "category": "Chemistry"
+          },
+          {
+            "qn": 5,
+            "question": "Which ocean is the deepest?",
+            "answer": "Pacific Ocean",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 6,
+            "question": "Who wrote 'War and Peace'?",
+            "answer": "Leo Tolstoy",
+            "points": 10,
+            "category": "Literature"
+          },
+          {
+            "qn": 7,
+            "question": "What is the square of 9?",
+            "answer": "81",
+            "points": 10,
+            "category": "Mathematics"
+          },
+          {
+            "qn": 8,
+            "question": "Which gas is most abundant in Earth's atmosphere?",
+            "answer": "Nitrogen",
+            "points": 10,
+            "category": "Science"
+          },
+          {
+            "qn": 9,
+            "question": "What is the longest bone in the human body?",
+            "answer": "Femur",
+            "points": 10,
+            "category": "Biology"
+          },
+          {
+            "qn": 10,
+            "question": "Which country has the most time zones?",
+            "answer": "France",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 11,
+            "question": "What is the main language of Brazil?",
+            "answer": "Portuguese",
+            "points": 10,
+            "category": "Language"
+          },
+          {
+            "qn": 12,
+            "question": "How many hearts does an octopus have?",
+            "answer": "3",
+            "points": 10,
+            "category": "Zoology"
+          },
+          {
+            "qn": 13,
+            "question": "Who discovered electricity?",
+            "answer": "Benjamin Franklin",
+            "points": 10,
+            "category": "Physics"
+          },
+          {
+            "qn": 14,
+            "question": "What is the capital of Egypt?",
+            "answer": "Cairo",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 15,
+            "question": "How many planets are in our solar system?",
+            "answer": "8",
+            "points": 10,
+            "category": "Astronomy"
+          },
+          {
+            "qn": 16,
+            "question": "What is the chemical symbol for Potassium?",
+            "answer": "K",
+            "points": 10,
+            "category": "Chemistry"
+          },
+          {
+            "qn": 17,
+            "question": "Who painted the Sistine Chapel ceiling?",
+            "answer": "Michelangelo",
+            "points": 10,
+            "category": "Art"
+          },
+          {
+            "qn": 18,
+            "question": "What is 12 × 12?",
+            "answer": "144",
+            "points": 10,
+            "category": "Mathematics"
+          },
+          {
+            "qn": 19,
+            "question": "Which country is shaped like a boot?",
+            "answer": "Italy",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 20,
+            "question": "What is the largest species of bear?",
+            "answer": "Polar Bear",
+            "points": 10,
+            "category": "Zoology"
+          },
+          {
+            "qn": 21,
+            "question": "Who was the first president of the United States?",
+            "answer": "George Washington",
+            "points": 10,
+            "category": "History"
+          },
+          {
+            "qn": 22,
+            "question": "What is the capital of China?",
+            "answer": "Beijing",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 23,
+            "question": "How many strings does a violin have?",
+            "answer": "4",
+            "points": 10,
+            "category": "Music"
+          },
+          {
+            "qn": 24,
+            "question": "What is the chemical symbol for Sodium?",
+            "answer": "Na",
+            "points": 10,
+            "category": "Chemistry"
+          },
+          {
+            "qn": 25,
+            "question": "Which planet is known as the Evening Star?",
+            "answer": "Venus",
+            "points": 10,
+            "category": "Astronomy"
+          },
+          {
+            "qn": 26,
+            "question": "Who wrote 'The Odyssey'?",
+            "answer": "Homer",
+            "points": 10,
+            "category": "Literature"
+          },
+          {
+            "qn": 27,
+            "question": "What is 15% of 200?",
+            "answer": "30",
+            "points": 10,
+            "category": "Mathematics"
+          },
+          {
+            "qn": 28,
+            "question": "Which is the smallest country in Africa?",
+            "answer": "Seychelles",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 29,
+            "question": "What is the chemical formula for table salt?",
+            "answer": "NaCl",
+            "points": 10,
+            "category": "Chemistry"
+          },
+          {
+            "qn": 30,
+            "question": "How many players are in a basketball team?",
+            "answer": "5",
+            "points": 10,
+            "category": "Sports"
+          },
+          {
+            "qn": 31,
+            "question": "Who invented the printing press?",
+            "answer": "Johannes Gutenberg",
+            "points": 10,
+            "category": "Inventions"
+          },
+          {
+            "qn": 32,
+            "question": "What is the capital of Russia?",
+            "answer": "Moscow",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 33,
+            "question": "How many grams are in a kilogram?",
+            "answer": "1000",
+            "points": 10,
+            "category": "Mathematics"
+          },
+          {
+            "qn": 34,
+            "question": "Which gas do humans breathe out?",
+            "answer": "Carbon Dioxide",
+            "points": 10,
+            "category": "Biology"
+          },
+          {
+            "qn": 35,
+            "question": "Who wrote 'Pride and Prejudice'?",
+            "answer": "Jane Austen",
+            "points": 10,
+            "category": "Literature"
+          },
+          {
+            "qn": 36,
+            "question": "What is the chemical symbol for Helium?",
+            "answer": "He",
+            "points": 10,
+            "category": "Chemistry"
+          },
+          {
+            "qn": 37,
+            "question": "How many sides does an octagon have?",
+            "answer": "8",
+            "points": 10,
+            "category": "Mathematics"
+          },
+          {
+            "qn": 38,
+            "question": "Which country has the most islands?",
+            "answer": "Sweden",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 39,
+            "question": "What is the largest organ in the human body?",
+            "answer": "Skin",
+            "points": 10,
+            "category": "Biology"
+          },
+          {
+            "qn": 40,
+            "question": "Who composed 'Moonlight Sonata'?",
+            "answer": "Ludwig van Beethoven",
+            "points": 10,
+            "category": "Music"
+          },
+          {
+            "qn": 41,
+            "question": "What is the capital of South Africa?",
+            "answer": "Pretoria (administrative), Cape Town (legislative), Bloemfontein (judicial)",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 42,
+            "question": "How many bytes are in a megabyte?",
+            "answer": "1,048,576",
+            "points": 10,
+            "category": "Computers"
+          },
+          {
+            "qn": 43,
+            "question": "What is the chemical symbol for Carbon?",
+            "answer": "C",
+            "points": 10,
+            "category": "Chemistry"
+          },
+          {
+            "qn": 44,
+            "question": "Who discovered X-rays?",
+            "answer": "Wilhelm Röntgen",
+            "points": 10,
+            "category": "Physics"
+          },
+          {
+            "qn": 45,
+            "question": "What is 3 to the power of 4?",
+            "answer": "81",
+            "points": 10,
+            "category": "Mathematics"
+          },
+          {
+            "qn": 46,
+            "question": "Which is the largest island in the world?",
+            "answer": "Greenland",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 47,
+            "question": "How many chambers does the human heart have?",
+            "answer": "4",
+            "points": 10,
+            "category": "Biology"
+          },
+          {
+            "qn": 48,
+            "question": "Who wrote 'The Divine Comedy'?",
+            "answer": "Dante Alighieri",
+            "points": 10,
+            "category": "Literature"
+          },
+          {
+            "qn": 49,
+            "question": "What is the chemical symbol for Mercury?",
+            "answer": "Hg",
+            "points": 10,
+            "category": "Chemistry"
+          },
+          {
+            "qn": 50,
+            "question": "How many years are in a millennium?",
+            "answer": "1000",
+            "points": 10,
+            "category": "Mathematics"
+          },
+          {
+            "qn": 51,
+            "question": "Which country has the longest coastline?",
+            "answer": "Canada",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 52,
+            "question": "What is the fastest bird in level flight?",
+            "answer": "Peregrine Falcon",
+            "points": 10,
+            "category": "Zoology"
+          },
+          {
+            "qn": 53,
+            "question": "Who invented the steam engine?",
+            "answer": "James Watt",
+            "points": 10,
+            "category": "Inventions"
+          },
+          {
+            "qn": 54,
+            "question": "What is the capital of Argentina?",
+            "answer": "Buenos Aires",
+            "points": 10,
+            "category": "Geography"
+          },
+          {
+            "qn": 55,
+            "question": "How many degrees in a circle?",
+            "answer": "360",
+            "points": 10,
+            "category": "Mathematics"
+          },
+          {
+            "qn": 56,
+            "question": "What is the chemical symbol for Lead?",
+            "answer": "Pb",
+            "points": 10,
+            "category": "Chemistry"
+          },
+          {
+            "qn": 57,
+            "question": "Who painted 'The Last Supper'?",
+            "answer": "Leonardo da Vinci",
+            "points": 10,
+            "category": "Art"
+          },
+          {
+            "qn": 58,
+            "question": "What is 25% of 80?",
+            "answer": "20",
+            "points": 10,
+            "category": "Mathematics"
+          },
+          {
+            "qn": 59,
+            "question": "Which planet has the longest day?",
+            "answer": "Venus",
+            "points": 10,
+            "category": "Astronomy"
+          },
+          {
+            "qn": 60,
+            "question": "What is the chemical symbol for Tin?",
+            "answer": "Sn",
+            "points": 10,
+            "category": "Chemistry"
+          }
+        ],
+        "round2": [
+          {
+            "qn": 1,
+            "question": "Discuss the role of technology in modern education.",
+            "answer": "Technology enables personalized learning, global collaboration, and access to vast educational resources.",
+            "points": 15,
+            "category": "Education"
+          },
+          {
+            "qn": 2,
+            "question": "Explain the concept of cryptocurrency and blockchain.",
+            "answer": "Cryptocurrency is digital currency secured by cryptography and recorded on a decentralized blockchain ledger.",
+            "points": 15,
+            "category": "Technology"
+          },
+          {
+            "qn": 3,
+            "question": "Discuss the impact of climate change on agriculture.",
+            "answer": "Climate change affects crop yields, water availability, and increases extreme weather events impacting food security.",
+            "points": 15,
+            "category": "Agriculture"
+          },
+          {
+            "qn": 4,
+            "question": "What are the ethical considerations of surveillance technology?",
+            "answer": "Balancing security needs with privacy rights, consent, and potential for abuse of surveillance powers.",
+            "points": 15,
+            "category": "Ethics"
+          },
+          {
+            "qn": 5,
+            "question": "Discuss the importance of mental health awareness.",
+            "answer": "Reduces stigma, promotes early intervention, and improves overall well-being in society.",
+            "points": 15,
+            "category": "Health"
+          },
+          {
+            "qn": 6,
+            "question": "Explain the concept of sustainable tourism.",
+            "answer": "Tourism that minimizes negative impacts and benefits local communities and environments long-term.",
+            "points": 15,
+            "category": "Tourism"
+          },
+          {
+            "qn": 7,
+            "question": "Discuss the role of social entrepreneurship in solving social problems.",
+            "answer": "Social enterprises address social issues through business models that prioritize impact alongside profit.",
+            "points": 15,
+            "category": "Business"
+          },
+          {
+            "qn": 8,
+            "question": "What are the challenges of artificial intelligence in healthcare?",
+            "answer": "Data privacy, algorithmic bias, regulation, and maintaining human oversight in medical decisions.",
+            "points": 15,
+            "category": "Health"
+          },
+          {
+            "qn": 9,
+            "question": "Discuss the importance of preserving biodiversity.",
+            "answer": "Biodiversity supports ecosystem services, food security, medicine, and resilience to environmental changes.",
+            "points": 15,
+            "category": "Environment"
+          },
+          {
+            "qn": 10,
+            "question": "Explain the concept of green architecture.",
+            "answer": "Green architecture designs energy-efficient, environmentally friendly buildings using sustainable materials.",
+            "points": 15,
+            "category": "Architecture"
+          },
+          {
+            "qn": 11,
+            "question": "Discuss the impact of globalization on local cultures.",
+            "answer": "Globalization spreads ideas and products but can homogenize cultures and threaten local traditions.",
+            "points": 15,
+            "category": "Culture"
+          },
+          {
+            "qn": 12,
+            "question": "What are the benefits of organic farming?",
+            "answer": "Reduces chemical use, improves soil health, and produces healthier food with less environmental impact.",
+            "points": 15,
+            "category": "Agriculture"
+          },
+          {
+            "qn": 13,
+            "question": "Discuss the role of media in shaping public opinion.",
+            "answer": "Media influences perceptions, sets agendas, and can either inform or mislead public discourse.",
+            "points": 15,
+            "category": "Media"
+          },
+          {
+            "qn": 14,
+            "question": "Explain the importance of digital literacy in the 21st century.",
+            "answer": "Digital literacy enables safe, effective, and critical use of technology for communication, learning, and work.",
+            "points": 15,
+            "category": "Education"
+          },
+          {
+            "qn": 15,
+            "question": "Discuss the ethical implications of human cloning.",
+            "answer": "Raises questions about identity, individuality, and the moral boundaries of scientific manipulation.",
+            "points": 15,
+            "category": "Ethics"
+          },
+          {
+            "qn": 16,
+            "question": "What are the advantages of renewable energy for rural areas?",
+            "answer": "Provides energy independence, creates local jobs, and supports development without grid infrastructure.",
+            "points": 15,
+            "category": "Development"
+          },
+          {
+            "qn": 17,
+            "question": "Discuss the impact of fast food on public health.",
+            "answer": "Contributes to obesity, heart disease, and diabetes while promoting unhealthy eating habits.",
+            "points": 15,
+            "category": "Health"
+          },
+          {
+            "qn": 18,
+            "question": "Explain the concept of conscious capitalism.",
+            "answer": "Business approach that considers all stakeholders and social/environmental impacts alongside profits.",
+            "points": 15,
+            "category": "Business"
+          },
+          {
+            "qn": 19,
+            "question": "Discuss the importance of STEM education for girls.",
+            "answer": "Reduces gender gaps, promotes diversity in innovation, and empowers women in high-growth fields.",
+            "points": 15,
+            "category": "Education"
+          },
+          {
+            "qn": 20,
+            "question": "What are the challenges of waste management in urban areas?",
+            "answer": "Limited space, increasing waste generation, recycling infrastructure, and environmental pollution.",
+            "points": 15,
+            "category": "Urban Planning"
+          },
+          {
+            "qn": 21,
+            "question": "Discuss the role of art therapy in mental health treatment.",
+            "answer": "Art therapy provides non-verbal expression, reduces stress, and aids in emotional processing and healing.",
+            "points": 15,
+            "category": "Health"
+          },
+          {
+            "qn": 22,
+            "question": "Explain the concept of food security.",
+            "answer": "Food security means all people have physical and economic access to sufficient, safe, and nutritious food.",
+            "points": 15,
+            "category": "Agriculture"
+          },
+          {
+            "qn": 23,
+            "question": "Discuss the impact of e-commerce on traditional retail.",
+            "answer": "E-commerce offers convenience but threatens brick-and-mortar stores and changes consumer behavior patterns.",
+            "points": 15,
+            "category": "Business"
+          },
+          {
+            "qn": 24,
+            "question": "What are the benefits of urban green spaces?",
+            "answer": "Improves air quality, reduces heat, enhances mental health, and provides recreational areas.",
+            "points": 15,
+            "category": "Urban Planning"
+          },
+          {
+            "qn": 25,
+            "question": "Discuss the ethical considerations of drone technology.",
+            "answer": "Privacy invasion, safety risks, military use, and regulation of civilian drone operations.",
+            "points": 15,
+            "category": "Ethics"
+          },
+          {
+            "qn": 26,
+            "question": "Explain the importance of financial inclusion.",
+            "answer": "Financial inclusion provides access to banking services for underserved populations, reducing poverty.",
+            "points": 15,
+            "category": "Economics"
+          },
+          {
+            "qn": 27,
+            "question": "Discuss the impact of social media on teenage development.",
+            "answer": "Affects self-esteem, social skills, and mental health while providing connection and information access.",
+            "points": 15,
+            "category": "Psychology"
+          },
+          {
+            "qn": 28,
+            "question": "What are the challenges of preserving traditional crafts?",
+            "answer": "Lack of economic viability, declining interest among youth, and competition from mass production.",
+            "points": 15,
+            "category": "Culture"
+          },
+          {
+            "qn": 29,
+            "question": "Discuss the role of nutrition in academic performance.",
+            "answer": "Proper nutrition improves concentration, memory, and cognitive function, enhancing learning outcomes.",
+            "points": 15,
+            "category": "Education"
+          },
+          {
+            "qn": 30,
+            "question": "Explain the concept of smart farming.",
+            "answer": "Smart farming uses technology like sensors and data analytics to optimize agricultural production.",
+            "points": 15,
+            "category": "Agriculture"
+          },
+          {
+            "qn": 31,
+            "question": "Discuss the impact of immigration on host countries.",
+            "answer": "Enriches culture and workforce but poses integration challenges and strains public services.",
+            "points": 15,
+            "category": "Society"
+          },
+          {
+            "qn": 32,
+            "question": "What are the benefits of community-based tourism?",
+            "answer": "Empowers local communities, preserves culture, and distributes tourism benefits more equitably.",
+            "points": 15,
+            "category": "Tourism"
+          },
+          {
+            "qn": 33,
+            "question": "Discuss the importance of water management in agriculture.",
+            "answer": "Efficient water use ensures food production sustainability amid growing scarcity and climate change.",
+            "points": 15,
+            "category": "Agriculture"
+          },
+          {
+            "qn": 34,
+            "question": "Explain the concept of zero-waste lifestyle.",
+            "answer": "Zero-waste aims to eliminate trash by reducing, reusing, recycling, and composting everything.",
+            "points": 15,
+            "category": "Environment"
+          },
+          {
+            "qn": 35,
+            "question": "Discuss the role of sports in promoting peace.",
+            "answer": "Sports transcend political differences, foster international cooperation, and build bridges between communities.",
+            "points": 15,
+            "category": "Society"
+          },
+          {
+            "qn": 36,
+            "question": "What are the challenges of digital education in rural areas?",
+            "answer": "Lack of internet access, electricity, devices, and digital literacy among teachers and students.",
+            "points": 15,
+            "category": "Education"
+          },
+          {
+            "qn": 37,
+            "question": "Discuss the impact of fashion industry on the environment.",
+            "answer": "Causes water pollution, waste, and carbon emissions through fast production and disposal cycles.",
+            "points": 15,
+            "category": "Environment"
+          },
+          {
+            "qn": 38,
+            "question": "Explain the importance of civic education in democracy.",
+            "answer": "Civic education prepares informed citizens who understand rights, responsibilities, and democratic processes.",
+            "points": 15,
+            "category": "Education"
+          },
+          {
+            "qn": 39,
+            "question": "Discuss the ethical considerations of predictive policing.",
+            "answer": "Raises concerns about bias, privacy, and potential for reinforcing existing inequalities in law enforcement.",
+            "points": 15,
+            "category": "Ethics"
+          },
+          {
+            "qn": 40,
+            "question": "What are the benefits of public-private partnerships in infrastructure?",
+            "answer": "Combines efficiency of private sector with public oversight to deliver better services and facilities.",
+            "points": 15,
+            "category": "Economics"
+          },
+          {
+            "qn": 41,
+            "question": "Discuss the impact of video conferencing on business communication.",
+            "answer": "Enables remote collaboration but reduces non-verbal cues and can cause meeting fatigue.",
+            "points": 15,
+            "category": "Business"
+          },
+          {
+            "qn": 42,
+            "question": "Explain the concept of carbon trading.",
+            "answer": "Carbon trading allows companies to buy and sell emission permits, creating market incentives to reduce pollution.",
+            "points": 15,
+            "category": "Economics"
+          },
+          {
+            "qn": 43,
+            "question": "Discuss the importance of preserving coral reefs.",
+            "answer": "Coral reefs support marine biodiversity, protect coastlines, and provide livelihoods for millions.",
+            "points": 15,
+            "category": "Environment"
+          },
+          {
+            "qn": 44,
+            "question": "What are the challenges of universal healthcare?",
+            "answer": "Funding, quality maintenance, access equity, and political will across different economic systems.",
+            "points": 15,
+            "category": "Health"
+          },
+          {
+            "qn": 45,
+            "question": "Discuss the role of museums in preserving history.",
+            "answer": "Museums collect, preserve, and interpret artifacts that document human history and cultural heritage.",
+            "points": 15,
+            "category": "Culture"
+          },
+          {
+            "qn": 46,
+            "question": "Explain the concept of emotional labor in service industries.",
+            "answer": "Emotional labor requires managing emotions to create specific responses in customers, often without recognition.",
+            "points": 15,
+            "category": "Psychology"
+          },
+          {
+            "qn": 47,
+            "question": "Discuss the impact of noise pollution on health.",
+            "answer": "Causes stress, hearing loss, sleep disturbance, and cardiovascular problems in urban environments.",
+            "points": 15,
+            "category": "Health"
+          },
+          {
+            "qn": 48,
+            "question": "What are the benefits of bilingual education?",
+            "answer": "Enhances cognitive flexibility, cultural understanding, and future career opportunities for students.",
+            "points": 15,
+            "category": "Education"
+          },
+          {
+            "qn": 49,
+            "question": "Discuss the ethical considerations of animal rights.",
+            "answer": "Balances human needs with animal welfare, considering sentience, suffering, and moral status of animals.",
+            "points": 15,
+            "category": "Ethics"
+          },
+          {
+            "qn": 50,
+            "question": "Explain the importance of soil conservation.",
+            "answer": "Soil conservation maintains fertility, prevents erosion, and ensures sustainable food production.",
+            "points": 15,
+            "category": "Agriculture"
+          },
+          {
+            "qn": 51,
+            "question": "Discuss the impact of reality TV on society.",
+            "answer": "Shapes cultural norms, influences behavior, and raises questions about authenticity and exploitation.",
+            "points": 15,
+            "category": "Media"
+          },
+          {
+            "qn": 52,
+            "question": "What are the challenges of aging infrastructure in cities?",
+            "answer": "Safety risks, inefficiency, high repair costs, and disruption during upgrades in populated areas.",
+            "points": 15,
+            "category": "Urban Planning"
+          },
+          {
+            "qn": 53,
+            "question": "Discuss the role of libraries in the digital age.",
+            "answer": "Libraries provide digital access, literacy programs, and community spaces beyond just book lending.",
+            "points": 15,
+            "category": "Education"
+          },
+          {
+            "qn": 54,
+            "question": "Explain the concept of food sovereignty.",
+            "answer": "Food sovereignty is the right of peoples to healthy food produced through sustainable methods they control.",
+            "points": 15,
+            "category": "Agriculture"
+          },
+          {
+            "qn": 55,
+            "question": "Discuss the impact of automation on creative industries.",
+            "answer": "Automation assists creation but raises questions about authenticity and the value of human artistry.",
+            "points": 15,
+            "category": "Art"
+          },
+          {
+            "qn": 56,
+            "question": "What are the benefits of pedestrian-friendly cities?",
+            "answer": "Improves health, reduces pollution, increases social interaction, and boosts local businesses.",
+            "points": 15,
+            "category": "Urban Planning"
+          },
+          {
+            "qn": 57,
+            "question": "Discuss the ethical considerations of brain-computer interfaces.",
+            "answer": "Privacy of thoughts, identity, consent, and potential for enhancement creating social inequalities.",
+            "points": 15,
+            "category": "Ethics"
+          },
+          {
+            "qn": 58,
+            "question": "Explain the importance of cultural exchange programs.",
+            "answer": "Promotes mutual understanding, breaks stereotypes, and fosters global citizenship among participants.",
+            "points": 15,
+            "category": "Culture"
+          },
+          {
+            "qn": 59,
+            "question": "Discuss the impact of single-use plastics on oceans.",
+            "answer": "Pollutes marine environments, harms wildlife, and enters food chains affecting human health.",
+            "points": 15,
+            "category": "Environment"
+          },
+          {
+            "qn": 60,
+            "question": "What are the challenges of implementing renewable energy globally?",
+            "answer": "High initial costs, infrastructure needs, intermittent supply, and political/economic barriers.",
+            "points": 15,
+            "category": "Energy"
+          }
+        ]
+      }
+    }
+  ]
+}

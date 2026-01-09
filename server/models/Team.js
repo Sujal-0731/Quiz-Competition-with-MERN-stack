@@ -7,22 +7,25 @@ const teamSchema = new mongoose.Schema({
     unique: true,
     trim: true
   },
-  teamCode: {
+  password: {
     type: String,
     required: true
   },
   participants: {
-    type: [String],
-    required: true,
-    validate: {
-      validator: function(arr) {
-        return arr.length === 4;
-      },
-      message: 'Exactly 4 participants required'
+  type: [String],
+  required: true,
+  validate: {
+    validator: function(arr) {
+      // Check: exactly 4 items AND all are non-empty strings
+      return arr.length === 4 && 
+             arr.every(participant => 
+               typeof participant === 'string' && 
+               participant.trim().length > 0
+             );
+    },
+    message: 'Exactly 4 non-empty participant names are required'
     }
   },
-  
-  // ROUND-WISE SCORES
   scores: {
     round1: {  // GK Round (100% judge)
       judgeScore: { type: Number, default: 0 },
@@ -56,30 +59,25 @@ const teamSchema = new mongoose.Schema({
   }
 }, { timestamps: true });
 
-// Middleware to calculate totals when scores change
-teamSchema.pre('save', function(next) {
-  if (this.isModified('scores')) {
-    // Calculate round totals
-    this.scores.round1.totalScore = this.scores.round1.judgeScore;
-    this.scores.round2.totalScore = this.scores.round2.judgeScore;
-    this.scores.round3.totalScore = 
-      this.scores.round3.judgeScore + this.scores.round3.voterScore;
-    
-    // Calculate overall totals
-    this.totalJudgeScore = 
-      this.scores.round1.judgeScore + 
-      this.scores.round2.judgeScore + 
-      this.scores.round3.judgeScore;
-    
-    this.totalVoterScore = this.scores.round3.voterScore;
-    
-    // Final score (you can adjust weights here)
-    this.finalScore = 
-      this.scores.round1.totalScore + 
-      this.scores.round2.totalScore + 
-      this.scores.round3.totalScore;
-  }
-  next();
-});
+teamSchema.methods.calculateScores = function() {
+  this.scores.round1.totalScore = this.scores.round1.judgeScore;
+  this.scores.round2.totalScore = this.scores.round2.judgeScore;
+  this.scores.round3.totalScore = 
+    this.scores.round3.judgeScore + this.scores.round3.voterScore;
+  
+  this.totalJudgeScore = 
+    this.scores.round1.judgeScore + 
+    this.scores.round2.judgeScore + 
+    this.scores.round3.judgeScore;
+  
+  this.totalVoterScore = this.scores.round3.voterScore;
+  
+  this.finalScore = 
+    this.scores.round1.totalScore + 
+    this.scores.round2.totalScore + 
+    this.scores.round3.totalScore;
+  
+  return this;
+};
 
 module.exports = mongoose.model("Team", teamSchema);

@@ -1,34 +1,93 @@
+const mongoose = require("mongoose");
+
+// Question sub-schema
 const questionSchema = new mongoose.Schema({
-  round: {
+  qn: {  // 1 to 60
     type: Number,
-    enum: [1, 2], // 1 = GK, 2 = Random Topics
-    required: true
+    required: true,
+    min: 1,
+    max: 60
   },
-  groupNumber: {
-    type: Number,
-    required: true
-  },
-  questionNumber: {
-    type: Number, // 1-30 for each round
-    required: true
-  },
-  questionText: {
+  question: {
     type: String,
-    required: true
+    required: true  // Add this
   },
-  category: {
-    type: String, // For round 2: 'Science', 'History', etc.
-    required: function() { return this.round === 2; }
+  answer: {
+    type: String,
+    required: true  // Add this
   },
-  maxPoints: {
+  points: {
     type: Number,
+    required: true, 
+    min: 5,
+    max: 20,
     default: 10
   },
+  category: {
+    type: String,
+    required: true,
+    default: "General"
+  }
+}, { _id: false });
+
+// Main Group schema
+const questionGroupSchema = new mongoose.Schema({
+  group: {  // Group number (1, 2, etc.)
+    type: Number,
+    required: true,
+    unique: true,
+    min: 1
+  },
+  
+  // Only 2 rounds for questions
+  round1: {  // GK Round
+    type: [questionSchema],
+    validate: {
+      validator: function(arr) {
+        //return arr.length === 60;  // Must have exactly 60 questions
+      },
+      message: 'Round 1 must have exactly 60 questions'
+    }
+  },
+  
+  round2: {  // Random Topics Round
+    type: [questionSchema],
+    validate: {
+      validator: function(arr) {
+        //return arr.length === 60;  // Must have exactly 60 questions
+      },
+      message: 'Round 2 must have exactly 60 questions'
+    }
+  },
+  
   createdAt: {
     type: Date,
     default: Date.now
   }
+  
+}, { timestamps: true });
+
+// Sort questions by qn number before saving
+questionGroupSchema.pre('save', function(next) {
+  try {
+    if (this.round1 && Array.isArray(this.round1)) {
+      this.round1.sort((a, b) => a.qn - b.qn);
+    }
+    if (this.round2 && Array.isArray(this.round2)) {
+      this.round2.sort((a, b) => a.qn - b.qn);
+    }
+    
+    // Check if next is a function before calling
+    if (typeof next === 'function') {
+      next();
+    }
+  } catch (error) {
+    if (typeof next === 'function') {
+      next(error);
+    } else {
+      throw error;
+    }
+  }
 });
 
-// Each group has 30 questions per round
-questionSchema.index({ groupNumber: 1, round: 1, questionNumber: 1 }, { unique: true });
+module.exports = mongoose.model("questionGroup", questionGroupSchema);

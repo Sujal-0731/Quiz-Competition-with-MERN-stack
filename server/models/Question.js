@@ -90,4 +90,5 @@ questionGroupSchema.pre('save', function(next) {
   }
 });
 
-module.exports = mongoose.model("questionGroup", questionGroupSchema);
+module.exports = mongoose.model("Questions", questionGroupSchema);
+
